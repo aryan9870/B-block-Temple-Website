@@ -45,9 +45,9 @@ const Navbar = () => {
           <div className='flex flex-col w-28 text-white bg-gray-800 gap-2 fixed z-50 right-24 top-10 rounded-md py-2 px-3'>
             <Link onClick={aryanhandle} activeClass='active' to='home' spy={true} smooth={true} offset={-100} duration={500} className="mobItem">Home</Link>
             <Link onClick={aryanhandle} activeClass='active' to='about' spy={true} smooth={true} offset={0} duration={500} className="mobItem">About</Link>
-            <Link onClick={aryanhandle} activeClass='active' to='portfolio' spy={true} smooth={true} offset={0} duration={500} className="mobItem">Portfolio</Link>
-            <Link onClick={aryanhandle} activeClass='active' to='clint' spy={true} smooth={true} offset={0} duration={500} className="mobItem">Clints</Link>
-            <Link onClick={aryanhandle} activeClass='active' to='contact' spy={true} smooth={true} offset={0} duration={500} className="mobItem">Contact</Link>
+            <Link onClick={aryanhandle} activeClass='active' to='portfolio' spy={true} smooth={true} offset={0} duration={500} className="mobItem">Events</Link>
+            <Link onClick={aryanhandle} activeClass='active' to='clint' spy={true} smooth={true} offset={0} duration={500} className="mobItem">Gallery</Link>
+            <Link onClick={aryanhandle} activeClass='active' to='contact' spy={true} smooth={true} offset={0} duration={500} className="mobItem">Contact Us</Link>
           </div>
         </div>
     </div>
